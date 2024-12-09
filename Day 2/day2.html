@@ -1,0 +1,68 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: cyan;
+    }
+
+    .business-card {
+      border: 1px solid black;
+      padding: 15px;
+      max-width: 250px;
+      text-align: center;
+      background-color: blue;
+      color: white;
+      border-radius: 4px;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .job-title {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .email,
+    .website {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+
+    .email:hover,
+    .website:hover {
+      color: cyan;
+    }
+  </style>
+
+  <body>
+    <div class="business-card">
+      <h2 class="name">Jacob Shaul</h2>
+      <p class="job-title">Coder, reader, sports player</p>
+      <a class="email" href="mailto:alice@example.com">My favorite movie</a> |
+      <a class="website" href="https://example.com" target="_blank"
+        >My favorite song</a
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
